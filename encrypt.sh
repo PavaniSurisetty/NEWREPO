@@ -14,3 +14,4 @@ decrypted=$(echo -n "$encrypted" | openssl enc -aes-256-cbc -a -salt -pbkdf2 -it
 
 # Print the decrypted word
 echo $decrypted
+
